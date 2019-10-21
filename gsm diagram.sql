@@ -1,0 +1,1 @@
+select  aboneler.abo_adi_soyadi,aboneler.abo_id from [abo fatura bilgileri] inner join aboneler on [abo fatura bilgileri].abo_adi_soyadi=aboneler.abo_adi_soyadi;
